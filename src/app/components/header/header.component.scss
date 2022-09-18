@@ -1,0 +1,27 @@
+:host {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  height: 40px;
+  padding: 12px;
+  border-bottom: 1px solid #dad7d7;
+
+  span {
+    font-size: 22px;
+    color: gray;
+  }
+
+  .surname {
+    color: orangered;
+  }
+
+  .mat-icon-button {
+    color: gray;
+  }
+}
+
+.left-part {
+  display: flex;
+  align-items: center;
+}
