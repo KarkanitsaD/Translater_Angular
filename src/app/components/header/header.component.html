@@ -1,0 +1,23 @@
+<div class="left-part">
+  <button mat-icon-button class="menu-btn">
+    <mat-icon>
+      menu
+    </mat-icon>
+  </button>
+  <span class="surname">
+    Karkanitsa
+  </span>
+  <span>
+    Translater
+  </span>
+</div>
+<button mat-icon-button>
+  <mat-icon *ngIf="true; else lightMode">
+    dark_mode
+  </mat-icon>
+  <ng-template #lightMode>
+    <mat-icon>
+      light_mode
+    </mat-icon>
+  </ng-template>
+</button>
